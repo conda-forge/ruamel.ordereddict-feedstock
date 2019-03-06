@@ -9,7 +9,7 @@ source:
   sha256: bf0a198c8ce5d973c24e5dba12d3abc254996788ca6ad8448eabc6aa710db149
 
 build:
-  number: 1
+  number: 2
   skip: True  # [py3k]
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
@@ -19,8 +19,10 @@ requirements:
   host:
     - python
     - pip
+    - ruamel
   run:
     - python
+    - ruamel
 
 test:
   imports:
