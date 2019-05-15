@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About ruamel.ordereddict
 ========================
 
@@ -18,9 +14,76 @@ Summary: a version of dict that keeps keys in insertion resp. sorted order
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/ruamel.ordereddict-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/ruamel.ordereddict-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/ruamel.ordereddict-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/ruamel.ordereddict-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/ruamel-ordereddict-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/ruamel-ordereddict-feedstock/branch/master)
+
+<table><tr>
+    <td>Travis</td>
+    <td>
+      <a href="https://travis-ci.org/conda-forge/ruamel.ordereddict-feedstock">
+        <img alt="macOS" src="https://img.shields.io/travis/conda-forge/ruamel.ordereddict-feedstock/master.svg?label=macOS">
+      </a>
+    </td>
+  </tr><tr>
+    <td>Appveyor</td>
+    <td>
+      <a href="https://ci.appveyor.com/project/conda-forge/ruamel-ordereddict-feedstock/branch/master">
+        <img alt="windows" src="https://img.shields.io/appveyor/ci/conda-forge/ruamel-ordereddict-feedstock/master.svg?label=Windows">
+      </a>
+    </td>
+  </tr>
+    
+  <tr>
+    <td>Azure</td>
+    <td>
+      <details>
+        <summary>
+          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1862&branchName=master">
+            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ruamel.ordereddict-feedstock?branchName=master">
+          </a>
+        </summary>
+        <table>
+          <thead><tr><th>Variant</th><th>Status</th></tr></thead>
+          <tbody><tr>
+              <td>linux_aarch64_python2.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1862&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ruamel.ordereddict-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_python2.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_ppc64le_python2.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1862&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ruamel.ordereddict-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_python2.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_python2.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1862&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ruamel.ordereddict-feedstock?branchName=master&jobName=linux&configuration=linux_python2.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_python2.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1862&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ruamel.ordereddict-feedstock?branchName=master&jobName=osx&configuration=osx_python2.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_c_compilervs2008python2.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1862&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ruamel.ordereddict-feedstock?branchName=master&jobName=win&configuration=win_c_compilervs2008python2.7" alt="variant">
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </details>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
