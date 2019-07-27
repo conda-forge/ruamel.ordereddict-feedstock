@@ -1,4 +1,4 @@
-{% set version = "0.4.13" %}
+{% set version = "0.4.14" %}
 
 package:
   name: ruamel.ordereddict
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/r/ruamel.ordereddict/ruamel.ordereddict-{{ version }}.tar.gz
-  sha256: bf0a198c8ce5d973c24e5dba12d3abc254996788ca6ad8448eabc6aa710db149
+  sha256: 281051d26eb2b18ef3d920e1e260716a52bd058a6b1a2f324102fc6a15cb8d4a
 
 build:
-  number: 2
+  number: 0
   skip: True  # [py3k]
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
